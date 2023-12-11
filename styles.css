@@ -11,6 +11,12 @@ h1{
     color:lightcyan;
 }
 
+
+a {
+    text-decoration: none;
+    color: midnightblue;
+}
+
 .assign{
     display:flow-root;
     color:bisque;
@@ -21,4 +27,6 @@ h1{
 .assign img {
     width: 200px;
     height: auto;
+    padding: 10px; /* change this from margin to padding */
+    border: 2px solid midnightblue; /* try dashed, dotted */
 }
